@@ -1,0 +1,32 @@
+"""
+Authors: Marshall Jones and Scott Walters
+spark_wc.py
+"""
+from pyspark import SparkContext
+import sys
+
+def rmPunc(line):
+    for word in line:
+        if not word.isalnum() or not word.isspace():
+            print(word)
+            return False
+    return True
+
+def main(argv):
+    inFile = argv[0]
+    outFile = argv[1]
+    sc = SparkContext(appName = "wc", master = "local")
+
+    words = sc.textFile(inFile)
+    spclChars = ["*", "'", '"', ":", ";", ".", "?", "!", ",", "&", "$", "%", "(", ")", "`"]
+    #for char in spclChars:
+        #print(char)
+        #clean = words.map(lambda word: word.replace(char, ""))
+    clean = words.filter(lambda line: rmPunc(line))
+    words = clean.flatMap(lambda line: line.lower().strip().split(" "))
+    collect = words.collect()
+    print(collect)
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])

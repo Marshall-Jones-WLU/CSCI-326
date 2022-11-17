@@ -1,0 +1,17 @@
+Author: Marshall Jones
+Assignment 2
+
+Each of the articles was interesting, but I chose to discuss “What Does that Server Really Serve?” by Richard Stallman. 
+
+This article seeks to explain the morality of the Software as a Service business model. The users have no way of knowing what is in the code and thus have no control over the data that they share with the business whose technology they are paying for.
+
+I had no idea Amazon deleted books remotely from its customers’ devices. Anyone who has read Fahrenheit 451 by Ray Bradbury understands the implications of this.
+
+What opinion does the writer(s) have about Cloud Computing?
+The writer seems to despise the term “Cloud Computing.” He says the term could refer to “almost any use of the Internet” and that its real meaning carries the idea that people will blindly use online services without realizing that they are paying with more than just money. 
+
+How informed are the writers about Cloud Computing?
+Richard Stallman very clearly understands the SaaS business model and how cloud servers are used by these businesses. I wouldn’t be surprised if he has worked for a SaaS company in the past.
+
+What are your own thoughts on the opinions/analysis provided by the article?
+Richard’s approach was definitely eye-opening for me. It seems like he aligns with the cypher punk movement, which I am very interested in. The fact that Amazon removed downloaded books from people’s Kindles, and that this occurrence is not commonly discussed, is frightening. Some may argue that all software should be open source, and I see many merits to this. However, companies deserve the right to maintain their competitive advantage through a black box approach. Unfortunately, this leads us back to the issues that Richard highlights in his article. I think that to solve these issues, regular software audits by neutral third parties should be a legal requirement for SaaS businesses to operate. 
